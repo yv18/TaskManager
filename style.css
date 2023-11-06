@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(193, 0, 255);
+    background: linear-gradient(90deg, rgba(193, 0, 255, 1) 0%, rgba(29, 47, 201, 1) 69%, rgba(255, 0, 253, 1) 100%);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.task-form {
+    width: 350px;
+}
+
+.search {
+    width: 350px;
+}
+
+.edit {
+    padding: 10px;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.task-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#add-task {
+    display: block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.edit input {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#edit-task {
+    color: rgb(108, 177, 4);
+}
+
+#start,
+#due {
+    float: left;
+}
+
+#edit-task:hover {
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background-color: #0056b3;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.task {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.task:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.task-description {
+    font-weight: bold;
+}
+
+.edit-button {
+    color: #007BFF;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#delete-task {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#delete-task:hover {
+    text-decoration: underline;
+}
+
+
+
+#task-list {
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+.edit {
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    display: inline;
+}
+
+
+.edit label {
+    margin-top: 10px;
+}
+
+.edit input[type="text"],
+.edit input[type="date"] {
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.edit button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.edit button:hover {
+    background-color: #0056b3;
+}
+
+#editmain {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#editmain:hover {
+    background-color: #0056b3;
+}
+
+
+#deletemain {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#deletemain:hover {
+    background-color: black;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#task-list {
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.task {
+    width: 250px;
+}
