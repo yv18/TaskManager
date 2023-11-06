@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="task-form">
+        <h1>Task Manager</h1>
+        <input type="text" id="task-heading" placeholder="Task Heading" />
+        <input
+          type="text"
+          id="task-description"
+          placeholder="Task description"
+        />
+        <input type="text" id="assignee" placeholder="Assignee" />
+        <label id="start">Start-date</label>
+        <input type="date" id="startdate" placeholder="Start date" />
+        <label id="due">Due-date</label>
+        <input type="date" id="due-date" placeholder="Due date" />
+        <button id="add-task">Add Task</button>
+      </div>
+      <div class="search">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search tasks by using Heading name"
+        />
+      </div>
+    </div>
+    <div class="list">
+      <div id="task-list">
+        <div class="task"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
